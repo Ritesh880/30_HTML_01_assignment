@@ -1,0 +1,79 @@
+<!-- 8. Create a registration form for a hackathon, (Include form validation).
+Note: You should not include any CSS or Javascript -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body leftmargin="300px">
+    <form action="">
+      <table border="1">
+        <tr>
+          <td colspan="2">
+            <h1 style="color: gray">Hackathon Registration Form</h1>
+          </td>
+        </tr>
+        <tr>
+          <td><b>Enter your name</b></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><b>Fathe's Name</b></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><b>Mother's Name</b></td>
+          <td><input type="text" name="mother_name" required /></td>
+        </tr>
+        <tr>
+          <td>Date of Birth</td>
+          <td><input type="date" name="date" required /></td>
+        </tr>
+        <tr>
+          <td>Qualification</td>
+          <td><input type="text" name="qualification " required /></td>
+        </tr>
+        <tr>
+          <td>Gender</td>
+          <td>
+            Male:<input type="radio" name="gender" /> Female:<input
+              type="radio"
+              name="gender"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Email ID</td>
+          <td><input type="email" required name="email" /></td>
+        </tr>
+        <tr>
+          <td>Mobile No.</td>
+          <td><input type="number" name="number" required /></td>
+        </tr>
+        <tr>
+          <td>Address</td>
+          <td>
+            <textarea name="address" id="addr" cols="20" rows="5" required>
+Enter your address</textarea
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>State</td>
+          <td><input type="text" name="state" required /></td>
+        </tr>
+        <tr>
+          <td>city</td>
+          <td><input type="text" name="city" required /></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="submit" name="button" width="20px" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
